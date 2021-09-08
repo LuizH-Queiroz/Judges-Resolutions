@@ -1,11 +1,18 @@
+#include <string>
 #include "Funcionario02.h"
 
 
-/*/////// CONSTRUTOR ///////*/
+/*/////// CONSTRUTORES ///////*/
 Funcionario::Funcionario(){
     nome = "\0";
     sobrenome = "\0";
     salarioMensal = 0;
+}
+
+Funcionario::Funcionario(std::string nome, std::string sobrenome, int salario){
+    this->nome = nome;
+    this->sobrenome = sobrenome;
+    this->salarioMensal = salario; //Uso opcional do ponteiro "this"
 }
 
 

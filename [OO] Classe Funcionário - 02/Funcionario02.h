@@ -14,6 +14,7 @@ class Funcionario{
     public:
         /* Construtor */
         Funcionario();
+        Funcionario(std::string, std::string, int);
 
 
         /* Métodos (Protótipos) */
