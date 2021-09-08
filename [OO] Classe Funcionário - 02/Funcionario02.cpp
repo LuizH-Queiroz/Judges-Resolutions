@@ -1,9 +1,12 @@
-#include <string>
 #include "Funcionario02.h"
 
 
 /*/////// CONSTRUTOR ///////*/
-
+Funcionario::Funcionario(){
+    nome = "\0";
+    sobrenome = "\0";
+    salarioMensal = 0;
+}
 
 
 /*/////// MÉTODOS ///////*/
