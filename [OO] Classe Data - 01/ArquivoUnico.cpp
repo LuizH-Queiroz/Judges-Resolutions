@@ -2,7 +2,7 @@
 /* ////////////////   ARQUIVO Data.hpp   ////////////////////*/
 class Data {
     public:
-        Data();
+        Data(); 
         int dia, mes, ano;
 };
 
