@@ -4,7 +4,7 @@
 #include <string>
 
 class Invoice {
-    public:
+    public: 
         int numero;
         std::string descricao;
         int quantComprada;
