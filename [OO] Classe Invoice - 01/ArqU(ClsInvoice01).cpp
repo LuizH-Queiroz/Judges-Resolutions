@@ -9,7 +9,7 @@ using namespace std;
 class Invoice {
     public:
         int numero;
-        std::string descricao;
+        string descricao;
         int quantComprada;
         float preco;
 
