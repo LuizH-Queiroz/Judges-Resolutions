@@ -29,7 +29,7 @@ int main(){
     getline(cin, procurado);
     for (int i = 0; i < numPessoas; i++)
     {
-        if (pessoa[i].getNome().find(procurado) < pessoa[i].getNome().size())
+        if (pessoa[i].getNome().find(procurado) != pessoa[i].getNome().npos)
         {
             cout << pessoa[i].getNome() + ", " << pessoa[i].getIdade() << ", "
                  << pessoa[i].getTelefone() << endl;
