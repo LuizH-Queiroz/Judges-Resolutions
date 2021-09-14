@@ -9,7 +9,7 @@ using namespace std;
 class Invoice {
     private:
         int numero;
-        std::string descricao;
+        string descricao;
         int quantComprada;
         float preco;
 
@@ -17,18 +17,18 @@ class Invoice {
     public:
         /*/////// CONSTRUTOR ///////*/
         Invoice();
-        Invoice(int, std::string, int, float);
+        Invoice(int, string, int, float);
 
 
         /*/////// MÉTODOS ///////*/
         int getNumero();
-        std::string getDescricao();
+        string getDescricao();
         int getQuantComprada();
         float getPreco();
 
 
         void setNumero(int);
-        void setDescricao(std::string);
+        void setDescricao(string);
         void setQuantComprada(int);
         void setPreco(float);
 
@@ -46,7 +46,7 @@ Invoice::Invoice(){
     preco = 0;
 }
 
-Invoice::Invoice(int num, std::string desc, int comprado, float custo){
+Invoice::Invoice(int num, string desc, int comprado, float custo){
     numero = num;
     descricao = desc;
     
@@ -71,7 +71,7 @@ int Invoice::getNumero(){
     return numero;
 }
 
-std::string Invoice::getDescricao(){
+string Invoice::getDescricao(){
     return descricao;
 }
 
@@ -89,7 +89,7 @@ void Invoice::setNumero(int n){
     numero = n;
 }
 
-void Invoice::setDescricao(std::string desc){
+void Invoice::setDescricao(string desc){
     descricao = desc;
 }
 
@@ -121,11 +121,11 @@ float Invoice::getInvoiceAmount(){
 
 void Invoice::print(){
 
-    std::cout << numero << " - "
+    cout << numero << " - "
               << descricao << " - "
               << quantComprada << " - "
               << preco << " - "
-              << getInvoiceAmount() << std::endl;
+              << getInvoiceAmount() << endl;
 }
 
 
