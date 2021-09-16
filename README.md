@@ -3,10 +3,10 @@ Esse repositório é dedicado a armazenar, de forma pública e para visualizaç�
 
 Vale ressaltar que esses problemas estão sendo resolvidos e enviados durante meu estudo do segundo período do curso de Engenharia de Computação da UFPB, na disciplina de Laboratório de Linguagem de Programação I.
 
-# LoP
+## LoP
 Link para o site do judge: https://lop.natalnet.br
 
-# Pastas [OO]
+## Pastas [OO]
 As pastas [OO] tratam de programas que usam de Orientação a Objetos, e contêm:
 - Os arquivos separados;
 - O arquivo único (que é enviado para submissão no LoP).
